@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+
+<p>You can use return to stop a function early, based on a condition.</p>
+
+<p id="demo"></p>
+
+<script>
+function checkAge(age) {
+  if (age < 18) {
+    return "Too young";
+  }
+  return "Access granted";
+}
+
+answer = checkAge(16);
+
+document.getElementById("demo").innerHTML = answer;
+</script>
+</body>
+</html>
