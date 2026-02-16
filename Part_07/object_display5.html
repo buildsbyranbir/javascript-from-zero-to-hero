@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Display Properties with JSON</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create an Object
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+// Display JSON
+let text = JSON.stringify(person);
+
+document.getElementById("demo").innerHTML = text; 
+</script>
+
+</body>
+</html>
